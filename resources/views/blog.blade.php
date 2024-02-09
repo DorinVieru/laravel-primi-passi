@@ -15,7 +15,7 @@
                     <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="{{ route('homepage') }}">Home</a>
                     <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover px-4" href="{{ route('chi_sono') }}">Chi Sono</a>
                     <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="{{ route('progetti') }}">Progetti<a>
-                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover  px-4" href="{{ route('blog') }}">Blog</a>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover px-4" href="{{ route('blog') }}">Blog</a>
                     <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="{{ route('contatti') }}">Contatti<a>
                 </div>
             </div>
@@ -26,8 +26,7 @@
         <div class="container py-4">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p class="fw-bold fs-1">{{ $welcome }}</p>
-                    <p class="text-danger fs-3">{{ $winner }}</p>
+                    <p class="text-danger fs-3">{{ $blog }}</p>
                 </div>
             </div>
         </div>
