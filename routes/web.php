@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $welcome = "Ciao visitatore fortunato!"; //DEFINISCO LA VARIABILE CON UN CERTO NOME..
+    $winner = "Non hai vinto un bel niente.";
+
+    return view('home', compact('welcome', 'winner')); //QUESTO NOME DEVE ESSERE UTILIZZATO SENZA IL DOLLARO DAVANTI DENTRO LA FUNZIONE COMPACT
+})->name('homepage');
